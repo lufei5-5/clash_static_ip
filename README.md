@@ -84,3 +84,15 @@
 每个订阅节点都会生成一条「订阅节点 → 静态代理」链路。静态组每 60 秒检测完整链路，所有静态链路不可用时相关请求会失败。普通组每 300 秒检测订阅节点。静态目标使用 TCP，匹配静态域名的 UDP 流量会被拒绝。YouTube 规则优先于 Google 的通用规则。[Mihomo 链式代理文档](https://wiki.metacubex.one/config/proxies/dialer-proxy/)
 
 需要调整域名时，在脚本顶部维护 `staticDomains`、`staticExact`、`youtubeDomains` 和 `youtubeExact`。前两组分别按域名后缀和完整域名匹配静态流量，后两组用于 YouTube 的普通线路。
+
+## QQ 交流群
+
+请用 QQ 扫一扫加入「AI交流群」。**已入群的朋友请勿重复加入。**
+
+<img src="docs/qq-group-qr.png" alt="AI交流群的 QQ 入群二维码" width="360">
+
+### 添加我的 QQ
+
+如果群满或二维码过期，可以扫下方二维码添加我的 QQ（SaBoai）。
+
+<img src="docs/qq-personal-qr.jpg" alt="SaBoai 的个人 QQ 二维码" width="360">
